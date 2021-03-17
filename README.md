@@ -11,7 +11,7 @@ v1 sentence
 get word/sentence
 reverse word/sentence
 stop
-
+-----------------------------------
 v2
 GET word/sentence
 FOR every character in word/sentence 
@@ -20,7 +20,7 @@ FOR every character in word/sentence
 display reversed word/sentence
 Stop
 
-
+----------------------------------------------------------------------
 v3:
 GET word/sentence 
 INIT word/sentence as oldWord
@@ -29,7 +29,7 @@ FOR every character in word/sentence
   GET last character in oldWord and add the character at the end of newWord
  display newWord
  stop
- 
+ -----------------------------------
  v4:
 INPUT word/sentence 
 INIT word/sentence as oldWord
@@ -49,7 +49,7 @@ get all the integer values
 arrange in ascending order
 display 
 stop
-
+-----------------------------------
 v2 Ascending order:
 GET all the integer values
 FOR each integer
@@ -58,7 +58,7 @@ FOR each integer
    ENDIF
 ENDFOR
 stop when sorted
-
+-----------------------------------
 v3 Ascending order:
 GET all the integer values 
 WHILE integers are not sorted
@@ -71,7 +71,7 @@ ENDWHILE
 DISPLAY 
 stop when sorted
 
-
+-----------------------------------
 v4 Ascending order:
 GET all the integer values 
 INIT sorted to FALSE
@@ -86,4 +86,5 @@ WHILE sorted is FALSE
 ENDWHILE
 DISPLAY sorted integers
 STOP
+-----------------------------------
 </code></pre>
