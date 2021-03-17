@@ -41,4 +41,44 @@ ENDFOR
 DISPLAY newWord
 STOP
  
+EXERCISE TWO:
+Given three integer values, display them in ascending order.
 
+v1 Acending order:
+get all the integer values
+arrange in ascending order
+display 
+stop
+
+v2 Acending order:
+GET all the integer values
+FOR each integer
+   IF this integer > next integer
+       swap
+   ENDIF
+ENDFOR
+stop when sorted
+
+v3 Acending order:
+GET all the integer values -1
+FOR each integer
+   IF thisInteger > nextInteger
+       swap thisInteger with nextInteger
+   ENDIF
+ENDFOR
+stop when sorted
+
+
+v4 Acending order:
+GET all the integer values -1
+INIT sorted to FALSE
+WHILE sorted is FALSE
+    Set sorted to TRUE
+    FOR each integer
+       IF thisInteger > nextInteger
+           swap thisInteger with nextInteger
+           SET sorted to FALSE
+       ENDIF
+    ENDFOR
+ENDWHILE
+STOP
