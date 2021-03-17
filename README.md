@@ -2,7 +2,7 @@ Patrik Bolander
 Mahir Chand
 Ethan Goh
 
-<code>
+<pre><code>
 EXERCISE ONE:
 Write the pseudocode instructions for the following:
 Given a word or a sentence, display the given word/sentence in reverse order.
@@ -86,4 +86,4 @@ WHILE sorted is FALSE
 ENDWHILE
 DISPLAY sorted integers
 STOP
-</code>
+</code></pre>
