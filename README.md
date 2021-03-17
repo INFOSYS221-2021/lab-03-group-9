@@ -2,7 +2,7 @@ Patrik Bolander
 Mahir Chand
 Ethan Goh
 
-
+<code>
 EXERCISE ONE:
 Write the pseudocode instructions for the following:
 Given a word or a sentence, display the given word/sentence in reverse order.
@@ -61,7 +61,7 @@ stop when sorted
 
 v3 Ascending order:
 GET all the integer values -1
-While integers are not sorted
+WHILE integers are not sorted
     FOR each integer
         IF thisInteger > nextInteger
             swap thisInteger with nextInteger
@@ -86,3 +86,4 @@ WHILE sorted is FALSE
 ENDWHILE
 DISPLAY sorted integers
 STOP
+<code>
