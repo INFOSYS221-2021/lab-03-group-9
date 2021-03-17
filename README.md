@@ -44,13 +44,13 @@ STOP
 EXERCISE TWO:
 Given three integer values, display them in ascending order.
 
-v1 Acending order:
+v1 Ascending order:
 get all the integer values
 arrange in ascending order
 display 
 stop
 
-v2 Acending order:
+v2 Ascending order:
 GET all the integer values
 FOR each integer
    IF this integer > next integer
@@ -59,17 +59,20 @@ FOR each integer
 ENDFOR
 stop when sorted
 
-v3 Acending order:
+v3 Ascending order:
 GET all the integer values -1
-FOR each integer
-   IF thisInteger > nextInteger
-       swap thisInteger with nextInteger
-   ENDIF
-ENDFOR
+While integers are not sorted
+    FOR each integer
+        IF thisInteger > nextInteger
+            swap thisInteger with nextInteger
+        ENDIF
+    ENDFOR
+ENDWHILE
+DISPLAY 
 stop when sorted
 
 
-v4 Acending order:
+v4 Ascending order:
 GET all the integer values -1
 INIT sorted to FALSE
 WHILE sorted is FALSE
@@ -81,4 +84,5 @@ WHILE sorted is FALSE
        ENDIF
     ENDFOR
 ENDWHILE
+DISPLAY sorted integers
 STOP
