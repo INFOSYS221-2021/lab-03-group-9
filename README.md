@@ -40,7 +40,7 @@ FOR every character in word/sentence
 ENDFOR
 DISPLAY newWord
 STOP
- 
+ ------------------------------------------------------------------
 #EXERCISE TWO:
 Given three integer values, display them in ascending order.
 
