@@ -60,9 +60,9 @@ ENDFOR
 stop when sorted
 
 v3 Ascending order:
-GET all the integer values -1
+GET all the integer values 
 WHILE integers are not sorted
-    FOR each integer
+    FOR each integer -1
         IF thisInteger > nextInteger
             swap thisInteger with nextInteger
         ENDIF
@@ -73,11 +73,11 @@ stop when sorted
 
 
 v4 Ascending order:
-GET all the integer values -1
+GET all the integer values 
 INIT sorted to FALSE
 WHILE sorted is FALSE
     Set sorted to TRUE
-    FOR each integer
+    FOR each integer -1
        IF thisInteger > nextInteger
            swap thisInteger with nextInteger
            SET sorted to FALSE
