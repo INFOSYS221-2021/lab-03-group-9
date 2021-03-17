@@ -3,7 +3,7 @@ Mahir Chand
 Ethan Goh
 
 <pre><code>
-EXERCISE ONE:
+#EXERCISE ONE:
 Write the pseudocode instructions for the following:
 Given a word or a sentence, display the given word/sentence in reverse order.
 
@@ -41,7 +41,7 @@ ENDFOR
 DISPLAY newWord
 STOP
  
-EXERCISE TWO:
+#EXERCISE TWO:
 Given three integer values, display them in ascending order.
 
 v1 Ascending order:
