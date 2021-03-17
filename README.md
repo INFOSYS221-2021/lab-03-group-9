@@ -86,4 +86,4 @@ WHILE sorted is FALSE
 ENDWHILE
 DISPLAY sorted integers
 STOP
-<code>
+</code>
