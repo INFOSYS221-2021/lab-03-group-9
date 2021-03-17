@@ -22,8 +22,23 @@ Stop
 
 
 v3:
-GET word/sentence
+GET word/sentence 
+INIT word/sentence as oldWord
 INIT newWord as empty word/sentence
 FOR every character in word/sentence
-  GET last 
+  GET last character in oldWord and add the character at the end of newWord
+ display newWord
+ stop
+ 
+ v4:
+INPUT word/sentence 
+INIT word/sentence as oldWord
+INIT newWord as empty word/sentence
+FOR every character in word/sentence
+  GET last character in oldWord 
+  add the character at the end of newWord
+ENDFOR
+DISPLAY newWord
+STOP
+ 
 
